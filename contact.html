@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+ <!-- Video Background -->
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="ffish.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header>
+       
+                     <h1>Friends Aquarium</h1><br>
+ <nav class="navbar">
+                     <ul class="nav-links">
+
+            
+                <li><a href="fri.html">Home</a></li>
+                <li><a href="prod.html">Products</a></li>
+                <li><a href="tips.html">Tips for you</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact <span>Me!</span></h1>
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Phone Number" required>
+                <input type="text" placeholder="Email Subject" required>
+            </div>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="contact.js"></script>
+</body>
+</html>

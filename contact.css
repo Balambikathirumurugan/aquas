@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+/* Video Background */
+#bg-video {
+    position: fixed;  /* Stays fixed in the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures video covers the full screen */
+    z-index: -1;  /* Places it behind the content */
+}
+
+/* Header Styling */
+header {
+    background: #008080;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00B4D8;
+}
+h1{
+font-size:35px;
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.contact-section h1 span {
+    color: blue;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-image: url('C:/Bala/Balambikathirumurugan/image1.jpg');
+
+box-shadow:0px 0px 15px blue,
+0px 0px 15px blue inset;
+
+
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    background: white;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: white;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn {
+    background: blue;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s; 
+box-shadow:0px 0px 15px blue,
+0px 0px 15px blue inset;
+
+}
+
+.btn:hover {
+    background: white;
+    color: red
+    border:3px solid blue;
+    box-shadow:0px 0px 15px blue,
+0px 0px 15px blue inset;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+

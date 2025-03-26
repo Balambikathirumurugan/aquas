@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="prod.css">
+</head>
+<body>
+
+
+ <header>
+        
+        <h1>Friends Aquarium</h1><br>
+        <nav>
+            <ul>
+                <li><a href="fri.html" >Home</a></li>
+                <li><a href="prod.html" class="active">Products</a></li>
+                <li><a href="tips.html">Tips for You</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="products-container">
+        <h2>Our Products</h2>
+        <div class="categories">
+            <button class="category-btn" onclick="showProducts('fishes')">Fishes</button>
+            <button class="category-btn" onclick="showProducts('tanks')">Tanks</button>
+            <button class="category-btn" onclick="showProducts('plants')">Live Plants</button>
+            <button class="category-btn" onclick="showProducts('motors')">Motors</button>
+            <button class="category-btn" onclick="showProducts('food')">Fish Food</button>
+        </div>
+        <div id="product-list"></div>
+    </div>
+    <script src="prod.js"></script>
+</body>
+</html>

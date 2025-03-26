@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips for You - Fish Aquarium</title>
+    <link rel="stylesheet" href="tips.css">
+</head>
+<body>
+ <!-- Video Background -->
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="ffish.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+<header>
+    <!-- Navigation Bar -->
+    <nav>
+        <h1>Friends Aquarium</h1><br>
+        <ul>
+            <li><a href="fri.html">Home</a></li>
+            <li><a href="prod.html">Products</a></li>
+            <li><a href="tips.html" class="active">Tips for You</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="container">
+        <!-- Sidebar Menu -->
+        <aside>
+            <h2>Common Diseases</h2>
+            <ul>
+                <li onclick="showTip('bodyFluke')">Body Fluke</li>
+                <li onclick="showTip('anchorWorm')">Anchor Worm</li>
+                <li onclick="showTip('ich')">Ich (White Spot)</li>
+                <li onclick="showTip('finRot')">Fin Rot</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content Section -->
+        <section id="content">
+            <h2>How to Treat Fish Diseases</h2>
+            <img id="fishImage" src="images/fish.png" alt="Fish Image">
+            <p id="tipText">Click on a disease from the menu to see details.</p>
+        </section>
+    </div>
+
+    <script src="tips.js"></script>
+</body>
+</html>

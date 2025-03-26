@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Video Background */
+#bg-video {
+    position: fixed;  /* Stays fixed in the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures video covers the full screen */
+    z-index: -1;  /* Places it behind the content */
+}
+
+
+
+
+/* Header Styling */
+header {
+    background: #008080;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+h1{
+font-size:35px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar Menu */
+aside {
+    width: 350px;
+    background-image: url('C:/Bala/Balambikathirumurugan/image1.jpg');
+
+    color: white;
+    padding: 100px;
+    border-radius: 10px;
+}
+aside h2 {
+    text-align: center;
+}
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+aside ul li {
+    padding: 10px;
+    cursor: pointer;
+    background: blue;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+aside ul li:hover {
+    background:  green;
+}
+
+/* Content Section */
+section {
+  flex: 1;
+    padding: 100px;
+    background:white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+section img {
+    width: 100px;
+    display: block;
+    margin: 50px auto;
+}

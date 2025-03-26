@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Aquarium - Home</title>
+    <link rel="stylesheet" href="fri.css">
+</head>
+<body>
+   <!-- Video Background -->
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="ffish.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <header>
+        <h1>Friends Aquarium</h1><br>
+       
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="fri.html" class="active">Home</a></li>
+                <li><a href="prod.html">Products</a></li>
+                <li><a href="tips.html">Tips for You</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="container">
+
+        <div class="left">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+
+                <p><a href="cre.html">Create New Account</a></p>
+            </form>
+        </div>
+
+        <div class="right">
+            <h2>New Arrivals</h2>
+            <div class="product">
+                <img src="fri1.jpg" alt="Fish">
+                <p>Freshwater Fish</p>
+            </div>
+           
+            <div class="product">
+                <img src="fri2.jpg" alt="Tank">
+                <p>Aquarium Tanks</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="fri.js"></script>
+</body>
+</html>
